@@ -1,4 +1,4 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2017
+rw//    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
 package random;
@@ -41,7 +41,7 @@ public class DiceRoll {
 			fiveImg = new ImageIcon(getClass().getResource("dice 5.png"));
 			sixImg = new ImageIcon(getClass().getResource("dice 6.png"));
 		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, "Could not find one or more dice images");
+//			JOptionPane.showMessageDialog(null, "Could not find one or more dice images");
 			System.exit(0);
 		}
 
